@@ -4,3 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+colorful = "0.2.1"
+libc = "0.2.137"
+ifstructs = "0.1.1"
+run_script = "0.10.0"
+
+[[bin]]
+name = "rscansend"
+path = "src/cansend.rs"
+
+[[bin]]
+name = "rscandump"
+path = "src/candump.rs"
