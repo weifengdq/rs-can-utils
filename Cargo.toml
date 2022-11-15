@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 colorful = "0.2.1"
-libc = "0.2.137"
+libc = "0.2.133"
 ifstructs = "0.1.1"
 run_script = "0.10.0"
 
@@ -16,3 +16,15 @@ path = "src/cansend.rs"
 [[bin]]
 name = "rscandump"
 path = "src/candump.rs"
+
+[[bin]]
+name = "rscangen"
+path = "src/cangen.rs"
+
+[[bin]]
+name = "rscanbusload"
+path = "src/canbusload.rs"
+
+[[bin]]
+name = "rscanplayer"
+path = "src/canplayer.rs"
