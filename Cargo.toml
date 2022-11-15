@@ -10,6 +10,10 @@ ifstructs = "0.1.1"
 run_script = "0.10.0"
 
 [[bin]]
+name = "colorshell"
+path = "src/main2.rs"
+
+[[bin]]
 name = "rscansend"
 path = "src/cansend.rs"
 
